@@ -1,0 +1,256 @@
+- generic [ref=e3]:
+  - complementary [ref=e4]:
+    - generic [ref=e5]:
+      - generic [ref=e6]:
+        - img "medicine-box" [ref=e7]:
+          - img [ref=e8]
+        - heading "AI 医生平台" [level=5] [ref=e10]
+      - menu [ref=e11]:
+        - menuitem "dashboard 医生面板" [ref=e12] [cursor=pointer]:
+          - img "dashboard" [ref=e13]:
+            - img [ref=e14]
+          - generic [ref=e16]: 医生面板
+        - menuitem "plus-circle 新增医生" [ref=e17] [cursor=pointer]:
+          - img "plus-circle" [ref=e18]:
+            - img [ref=e19]
+          - generic [ref=e22]: 新增医生
+        - menuitem "file-text 调用日志" [ref=e23] [cursor=pointer]:
+          - img "file-text" [ref=e24]:
+            - img [ref=e25]
+          - generic [ref=e27]: 调用日志
+        - menuitem "api 接口演示" [ref=e28] [cursor=pointer]:
+          - img "api" [ref=e29]:
+            - img [ref=e30]
+          - generic [ref=e32]: 接口演示
+      - menu [ref=e34]:
+        - menuitem "book API 文档" [ref=e35] [cursor=pointer]:
+          - img "book" [ref=e36]:
+            - img [ref=e37]
+          - generic [ref=e39]: API 文档
+    - img "left" [ref=e41] [cursor=pointer]:
+      - img [ref=e42]
+  - generic [ref=e44]:
+    - banner [ref=e45]:
+      - strong [ref=e47]: 大健康 AI · 管理后台
+      - generic [ref=e48]:
+        - generic [ref=e50]: 超级管理员
+        - generic [ref=e51]: 超级管理员
+        - button "logout 退出" [ref=e53] [cursor=pointer]:
+          - img "logout" [ref=e55]:
+            - img [ref=e56]
+          - generic [ref=e58]: 退出
+    - main [ref=e59]:
+      - generic [ref=e60]:
+        - generic [ref=e61]:
+          - generic [ref=e65]:
+            - img "team" [ref=e67]:
+              - img [ref=e68]
+            - generic [ref=e70]:
+              - text: 医生总数
+              - generic [ref=e71]: 6位
+          - generic [ref=e75]:
+            - img "api" [ref=e77]:
+              - img [ref=e78]
+            - generic [ref=e80]:
+              - text: 在线医生
+              - generic [ref=e81]: 6位
+          - generic [ref=e85]:
+            - img "message" [ref=e87]:
+              - img [ref=e88]
+            - generic [ref=e90]:
+              - text: 累计会话
+              - generic [ref=e91]: 22次
+          - generic [ref=e95]:
+            - img "thunderbolt" [ref=e97]:
+              - img [ref=e98]
+            - generic [ref=e100]:
+              - text: 今日调用
+              - generic [ref=e101]: 0次
+          - generic [ref=e105]:
+            - img "clock-circle" [ref=e107]:
+              - img [ref=e108]
+            - generic [ref=e111]:
+              - text: 平均响应
+              - generic [ref=e112]: 4561ms
+          - generic [ref=e116]:
+            - img "bar-chart" [ref=e118]:
+              - img [ref=e119]
+            - generic [ref=e121]:
+              - text: 总调用数
+              - generic [ref=e122]: 1次
+        - generic [ref=e123]:
+          - generic [ref=e124] [cursor=pointer]:
+            - generic [ref=e125]:
+              - generic: 筛选科室
+              - combobox [ref=e126]
+            - img "down" [ref=e128]:
+              - img [ref=e129]
+          - generic [ref=e131] [cursor=pointer]:
+            - generic [ref=e132]:
+              - generic: 筛选状态
+              - combobox [ref=e133]
+            - img "down" [ref=e135]:
+              - img [ref=e136]
+        - generic [ref=e140]:
+          - generic [ref=e142] [cursor=pointer]:
+            - generic [ref=e143]:
+              - generic [ref=e144]:
+                - generic [ref=e146]: 心内科
+                - generic [ref=e147]:
+                  - heading "李主任" [level=5] [ref=e148]
+                  - generic [ref=e149]:
+                    - generic [ref=e151]: 心内科
+                    - generic [ref=e153]: 在线
+              - generic [ref=e154]: 擅长：冠心病、高血压、心律失常、心力衰竭、心脏康复
+              - generic [ref=e155]: 被调用 0 次
+            - list [ref=e156]:
+              - listitem [ref=e157]:
+                - button "message 问诊" [ref=e159]:
+                  - img "message" [ref=e161]:
+                    - img [ref=e162]
+                  - generic [ref=e164]: 问诊
+              - listitem [ref=e165]:
+                - button "edit 编辑" [ref=e167]:
+                  - img "edit" [ref=e169]:
+                    - img [ref=e170]
+                  - generic [ref=e172]: 编辑
+              - listitem [ref=e173]:
+                - button "delete 删除" [ref=e175]:
+                  - img "delete" [ref=e177]:
+                    - img [ref=e178]
+                  - generic [ref=e180]: 删除
+          - generic [ref=e182] [cursor=pointer]:
+            - generic [ref=e183]:
+              - generic [ref=e184]:
+                - generic [ref=e186]: 内分泌科
+                - generic [ref=e187]:
+                  - heading "张医生" [level=5] [ref=e188]
+                  - generic [ref=e189]:
+                    - generic [ref=e191]: 内分泌科
+                    - generic [ref=e193]: 在线
+              - generic [ref=e194]: 擅长：糖尿病管理、甲状腺疾病、代谢综合征、骨质疏松、痛风
+              - generic [ref=e195]: 被调用 3 次
+            - list [ref=e196]:
+              - listitem [ref=e197]:
+                - button "message 问诊" [ref=e199]:
+                  - img "message" [ref=e201]:
+                    - img [ref=e202]
+                  - generic [ref=e204]: 问诊
+              - listitem [ref=e205]:
+                - button "edit 编辑" [ref=e207]:
+                  - img "edit" [ref=e209]:
+                    - img [ref=e210]
+                  - generic [ref=e212]: 编辑
+              - listitem [ref=e213]:
+                - button "delete 删除" [ref=e215]:
+                  - img "delete" [ref=e217]:
+                    - img [ref=e218]
+                  - generic [ref=e220]: 删除
+          - generic [ref=e222] [cursor=pointer]:
+            - generic [ref=e223]:
+              - generic [ref=e224]:
+                - generic [ref=e226]: 儿科
+                - generic [ref=e227]:
+                  - heading "王大夫" [level=5] [ref=e228]
+                  - generic [ref=e229]:
+                    - generic [ref=e231]: 儿科
+                    - generic [ref=e233]: 在线
+              - generic [ref=e234]: 擅长：儿童常见病、生长发育评估、疫苗接种咨询、小儿营养指导
+              - generic [ref=e235]: 被调用 0 次
+            - list [ref=e236]:
+              - listitem [ref=e237]:
+                - button "message 问诊" [ref=e239]:
+                  - img "message" [ref=e241]:
+                    - img [ref=e242]
+                  - generic [ref=e244]: 问诊
+              - listitem [ref=e245]:
+                - button "edit 编辑" [ref=e247]:
+                  - img "edit" [ref=e249]:
+                    - img [ref=e250]
+                  - generic [ref=e252]: 编辑
+              - listitem [ref=e253]:
+                - button "delete 删除" [ref=e255]:
+                  - img "delete" [ref=e257]:
+                    - img [ref=e258]
+                  - generic [ref=e260]: 删除
+          - generic [ref=e262] [cursor=pointer]:
+            - generic [ref=e263]:
+              - generic [ref=e264]:
+                - generic [ref=e266]: 中医科
+                - generic [ref=e267]:
+                  - heading "赵大夫" [level=5] [ref=e268]
+                  - generic [ref=e269]:
+                    - generic [ref=e271]: 中医科
+                    - generic [ref=e273]: 在线
+              - generic [ref=e274]: 擅长：中医内科、针灸推拿、中药调理、体质辨识、四季养生
+              - generic [ref=e275]: 被调用 0 次
+            - list [ref=e276]:
+              - listitem [ref=e277]:
+                - button "message 问诊" [ref=e279]:
+                  - img "message" [ref=e281]:
+                    - img [ref=e282]
+                  - generic [ref=e284]: 问诊
+              - listitem [ref=e285]:
+                - button "edit 编辑" [ref=e287]:
+                  - img "edit" [ref=e289]:
+                    - img [ref=e290]
+                  - generic [ref=e292]: 编辑
+              - listitem [ref=e293]:
+                - button "delete 删除" [ref=e295]:
+                  - img "delete" [ref=e297]:
+                    - img [ref=e298]
+                  - generic [ref=e300]: 删除
+          - generic [ref=e302] [cursor=pointer]:
+            - generic [ref=e303]:
+              - generic [ref=e304]:
+                - generic [ref=e306]: 全科
+                - generic [ref=e307]:
+                  - heading "陈医生" [level=5] [ref=e308]
+                  - generic [ref=e309]:
+                    - generic [ref=e311]: 全科
+                    - generic [ref=e313]: 在线
+              - generic [ref=e314]: 擅长：常见病诊疗、健康管理、体检报告解读、多学科转诊建议
+              - generic [ref=e315]: 被调用 12 次
+            - list [ref=e316]:
+              - listitem [ref=e317]:
+                - button "message 问诊" [ref=e319]:
+                  - img "message" [ref=e321]:
+                    - img [ref=e322]
+                  - generic [ref=e324]: 问诊
+              - listitem [ref=e325]:
+                - button "edit 编辑" [ref=e327]:
+                  - img "edit" [ref=e329]:
+                    - img [ref=e330]
+                  - generic [ref=e332]: 编辑
+              - listitem [ref=e333]:
+                - button "delete 删除" [ref=e335]:
+                  - img "delete" [ref=e337]:
+                    - img [ref=e338]
+                  - generic [ref=e340]: 删除
+          - generic [ref=e342] [cursor=pointer]:
+            - generic [ref=e343]:
+              - generic [ref=e344]:
+                - generic [ref=e346]: 药学
+                - generic [ref=e347]:
+                  - heading "刘药师" [level=5] [ref=e348]
+                  - generic [ref=e349]:
+                    - generic [ref=e351]: 药学
+                    - generic [ref=e353]: 在线
+              - generic [ref=e354]: 擅长：OTC用药指导、处方药服用咨询、药物相互作用审查、特殊人群用药（孕妇、儿童、老人）
+              - generic [ref=e355]: 被调用 0 次
+            - list [ref=e356]:
+              - listitem [ref=e357]:
+                - button "message 问诊" [ref=e359]:
+                  - img "message" [ref=e361]:
+                    - img [ref=e362]
+                  - generic [ref=e364]: 问诊
+              - listitem [ref=e365]:
+                - button "edit 编辑" [ref=e367]:
+                  - img "edit" [ref=e369]:
+                    - img [ref=e370]
+                  - generic [ref=e372]: 编辑
+              - listitem [ref=e373]:
+                - button "delete 删除" [ref=e375]:
+                  - img "delete" [ref=e377]:
+                    - img [ref=e378]
+                  - generic [ref=e380]: 删除

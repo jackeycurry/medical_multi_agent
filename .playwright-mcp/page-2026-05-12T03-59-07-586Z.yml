@@ -1,0 +1,120 @@
+- generic [ref=e47]:
+  - complementary [ref=e48]:
+    - generic [ref=e49]:
+      - heading "北京协和医院" [level=5] [ref=e51]
+      - menu [ref=e52]:
+        - menuitem "dashboard 数据总览" [ref=e53] [cursor=pointer]:
+          - img "dashboard" [ref=e54]:
+            - img [ref=e55]
+          - generic [ref=e57]: 数据总览
+        - menuitem "team 病人管理" [ref=e58] [cursor=pointer]:
+          - img "team" [ref=e59]:
+            - img [ref=e60]
+          - generic [ref=e62]: 病人管理
+        - menuitem "message 对话记录" [active] [ref=e63] [cursor=pointer]:
+          - img "message" [ref=e64]:
+            - img [ref=e65]
+          - generic [ref=e67]: 对话记录
+    - img "left" [ref=e69] [cursor=pointer]:
+      - img [ref=e70]
+  - generic [ref=e72]:
+    - banner [ref=e73]:
+      - generic [ref=e74]:
+        - strong [ref=e77]: 北京协和医院
+        - generic [ref=e79]: 王院长
+      - button "logout 退出" [ref=e80] [cursor=pointer]:
+        - img "logout" [ref=e82]:
+          - img [ref=e83]
+        - generic [ref=e85]: 退出
+    - main [ref=e86]:
+      - generic [ref=e312]:
+        - heading "对话记录" [level=4] [ref=e313]
+        - generic [ref=e316]:
+          - table [ref=e320]:
+            - rowgroup [ref=e329]:
+              - row "ID 病人 AI医生 真人医生 症状 消息 接替 时间 操作" [ref=e330]:
+                - columnheader "ID" [ref=e331]
+                - columnheader "病人" [ref=e332]
+                - columnheader "AI医生" [ref=e333]
+                - columnheader "真人医生" [ref=e334]
+                - columnheader "症状"
+                - columnheader "消息" [ref=e335]
+                - columnheader "接替" [ref=e336]
+                - columnheader "时间"
+                - columnheader "操作" [ref=e337]
+            - rowgroup [ref=e338]:
+              - row "5 我最近血糖空腹 9 多，口渴尿多体重在掉 张医生 李医生 我最近血糖空腹 9 多，口渴尿多体重在掉，是糖尿病吗 4 是 2026-05-12 03:52:12 eye" [ref=e339]:
+                - cell "5" [ref=e340]
+                - cell "我最近血糖空腹 9 多，口渴尿多体重在掉" [ref=e341]
+                - cell "张医生" [ref=e342]
+                - cell "李医生" [ref=e343]
+                - cell "我最近血糖空腹 9 多，口渴尿多体重在掉，是糖尿病吗"
+                - cell "4" [ref=e344]
+                - cell "是" [ref=e345]:
+                  - generic [ref=e346]: 是
+                - cell "2026-05-12 03:52:12"
+                - cell "eye" [ref=e347]:
+                  - img "eye" [ref=e349] [cursor=pointer]:
+                    - img [ref=e350]
+              - row "4 李主任 - 最近胸口闷，爬楼梯就喘 2 - 2026-05-12 03:50:28 eye" [ref=e352]:
+                - cell "4" [ref=e353]
+                - cell [ref=e354]
+                - cell "李主任" [ref=e355]
+                - cell "-" [ref=e356]
+                - cell "最近胸口闷，爬楼梯就喘"
+                - cell "2" [ref=e357]
+                - cell "-" [ref=e358]
+                - cell "2026-05-12 03:50:28"
+                - cell "eye" [ref=e359]:
+                  - img "eye" [ref=e361] [cursor=pointer]:
+                    - img [ref=e362]
+              - row "3 test 陈医生 张医生 test 4 是 2026-05-12 02:38:13 eye" [ref=e364]:
+                - cell "3" [ref=e365]
+                - cell "test" [ref=e366]
+                - cell "陈医生" [ref=e367]
+                - cell "张医生" [ref=e368]
+                - cell "test"
+                - cell "4" [ref=e369]
+                - cell "是" [ref=e370]:
+                  - generic [ref=e371]: 是
+                - cell "2026-05-12 02:38:13"
+                - cell "eye" [ref=e372]:
+                  - img "eye" [ref=e374] [cursor=pointer]:
+                    - img [ref=e375]
+              - row "2 test 陈医生 张医生 test 4 是 2026-05-12 02:36:01 eye" [ref=e377]:
+                - cell "2" [ref=e378]
+                - cell "test" [ref=e379]
+                - cell "陈医生" [ref=e380]
+                - cell "张医生" [ref=e381]
+                - cell "test"
+                - cell "4" [ref=e382]
+                - cell "是" [ref=e383]:
+                  - generic [ref=e384]: 是
+                - cell "2026-05-12 02:36:01"
+                - cell "eye" [ref=e385]:
+                  - img "eye" [ref=e387] [cursor=pointer]:
+                    - img [ref=e388]
+              - row "1 test 陈医生 张医生 test 4 是 2026-05-12 02:33:55 eye" [ref=e390]:
+                - cell "1" [ref=e391]
+                - cell "test" [ref=e392]
+                - cell "陈医生" [ref=e393]
+                - cell "张医生" [ref=e394]
+                - cell "test"
+                - cell "4" [ref=e395]
+                - cell "是" [ref=e396]:
+                  - generic [ref=e397]: 是
+                - cell "2026-05-12 02:33:55"
+                - cell "eye" [ref=e398]:
+                  - img "eye" [ref=e400] [cursor=pointer]:
+                    - img [ref=e401]
+          - list [ref=e403]:
+            - listitem "上一页" [ref=e404]:
+              - button "left" [disabled] [ref=e405]:
+                - img "left" [ref=e406]:
+                  - img [ref=e407]
+            - listitem "1" [ref=e409] [cursor=pointer]:
+              - generic [ref=e410]: "1"
+            - listitem "下一页" [ref=e411]:
+              - button "right" [disabled] [ref=e412]:
+                - img "right" [ref=e413]:
+                  - img [ref=e414]

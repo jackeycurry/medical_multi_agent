@@ -1,0 +1,17 @@
+- generic [ref=e54]:
+  - banner [ref=e55]:
+    - heading "大健康在线问诊" [level=4] [ref=e56] [cursor=pointer]
+    - generic [ref=e57]:
+      - generic [ref=e58]: 王小明
+      - button "logout 退出" [ref=e60] [cursor=pointer]:
+        - img "logout" [ref=e62]:
+          - img [ref=e63]
+        - generic [ref=e65]: 退出
+  - main [ref=e66]:
+    - generic [ref=e109]:
+      - heading "描述您的症状" [level=3] [ref=e110]
+      - generic [ref=e111]: 系统将为您匹配最合适的 AI 专科医生
+      - generic [ref=e112]:
+        - textbox "例：最近总觉得胸闷，爬楼梯喘得厉害..." [ref=e113]
+        - button "开始 AI 问诊" [disabled] [ref=e114]:
+          - generic: 开始 AI 问诊

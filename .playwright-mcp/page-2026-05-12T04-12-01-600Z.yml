@@ -1,0 +1,13 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "大健康在线问诊" [level=4] [ref=e5] [cursor=pointer]
+    - button "登 录" [ref=e8] [cursor=pointer]:
+      - generic [ref=e9]: 登 录
+  - main [ref=e10]:
+    - generic [ref=e47]:
+      - heading "描述您的症状" [level=3] [ref=e48]
+      - generic [ref=e49]: 系统将为您匹配最合适的 AI 专科医生
+      - generic [ref=e50]:
+        - textbox "例：最近总觉得胸闷，爬楼梯喘得厉害..." [ref=e51]
+        - button "开始 AI 问诊" [disabled] [ref=e52]:
+          - generic: 开始 AI 问诊

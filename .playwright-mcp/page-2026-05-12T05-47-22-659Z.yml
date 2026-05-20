@@ -1,0 +1,107 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e47]:
+    - complementary [ref=e48]:
+      - generic [ref=e49]:
+        - heading "北京协和医院" [level=5] [ref=e51]
+        - menu [ref=e52]:
+          - menuitem "dashboard 数据总览" [ref=e53] [cursor=pointer]:
+            - img "dashboard" [ref=e54]:
+              - img [ref=e55]
+            - generic [ref=e57]: 数据总览
+          - menuitem "team 病人管理" [ref=e58] [cursor=pointer]:
+            - img "team" [ref=e59]:
+              - img [ref=e60]
+            - generic [ref=e62]: 病人管理
+          - menuitem "message 对话记录" [ref=e63] [cursor=pointer]:
+            - img "message" [ref=e64]:
+              - img [ref=e65]
+            - generic [ref=e67]: 对话记录
+      - img "left" [ref=e69] [cursor=pointer]:
+        - img [ref=e70]
+    - generic [ref=e72]:
+      - banner [ref=e73]:
+        - generic [ref=e74]:
+          - strong [ref=e77]: 北京协和医院
+          - generic [ref=e79]: 王院长
+        - button "logout 退出" [ref=e80] [cursor=pointer]:
+          - img "logout" [ref=e82]:
+            - img [ref=e83]
+          - generic [ref=e85]: 退出
+      - main [ref=e86]:
+        - generic [ref=e87]:
+          - heading "数据总览" [level=4] [ref=e88]
+          - generic [ref=e89]:
+            - generic [ref=e93]:
+              - text: 病人数
+              - heading "3" [level=3] [ref=e94]
+            - generic [ref=e98]:
+              - text: AI医生
+              - heading "4" [level=3] [ref=e99]
+            - generic [ref=e103]:
+              - text: 真人医生
+              - heading "2" [level=3] [ref=e104]
+            - generic [ref=e108]:
+              - text: 今日会话
+              - heading "8" [level=3] [ref=e109]
+            - generic [ref=e113]:
+              - text: 总会话
+              - heading "8" [level=3] [ref=e114]
+            - generic [ref=e118]:
+              - text: 待处理
+              - heading "1" [level=3] [ref=e119]
+          - heading "最近会话" [level=5] [ref=e120]
+          - table [ref=e127]:
+            - rowgroup [ref=e136]:
+              - row "病人 AI医生 真人医生 症状 消息数 接替 时间" [ref=e137]:
+                - columnheader "病人" [ref=e138]
+                - columnheader "AI医生" [ref=e139]
+                - columnheader "真人医生" [ref=e140]
+                - columnheader "症状" [ref=e141]
+                - columnheader "消息数" [ref=e142]
+                - columnheader "接替" [ref=e143]
+                - columnheader "时间" [ref=e144]
+            - rowgroup [ref=e145]:
+              - row "王小明 陈医生 很容易出汗，感觉有点湿气重 5 是 2026-05-12 05:42:44" [ref=e146]:
+                - cell "王小明" [ref=e147]
+                - cell "陈医生" [ref=e148]
+                - cell [ref=e149]
+                - cell "很容易出汗，感觉有点湿气重" [ref=e150]
+                - cell "5" [ref=e151]
+                - cell "是" [ref=e152]
+                - cell "2026-05-12 05:42:44" [ref=e153]
+              - row "王小明 陈医生 最近经常胃疼，饭后明显，吃了奥美拉唑效果一般 3 - 2026-05-12 05:38:09" [ref=e154]:
+                - cell "王小明" [ref=e155]
+                - cell "陈医生" [ref=e156]
+                - cell [ref=e157]
+                - cell "最近经常胃疼，饭后明显，吃了奥美拉唑效果一般" [ref=e158]
+                - cell "3" [ref=e159]
+                - cell "-" [ref=e160]
+                - cell "2026-05-12 05:38:09" [ref=e161]
+              - row "最近经常头痛，特别是下午，有时候伴随恶心 陈医生 最近经常头痛，特别是下午，有时候伴随恶心 3 - 2026-05-12 04:12:25" [ref=e162]:
+                - cell "最近经常头痛，特别是下午，有时候伴随恶心" [ref=e163]
+                - cell "陈医生" [ref=e164]
+                - cell [ref=e165]
+                - cell "最近经常头痛，特别是下午，有时候伴随恶心" [ref=e166]
+                - cell "3" [ref=e167]
+                - cell "-" [ref=e168]
+                - cell "2026-05-12 04:12:25" [ref=e169]
+              - row "我最近血糖空腹 9 多，口渴尿多体重在掉 张医生 李医生 我最近血糖空腹 9 多，口渴尿多体重在掉，是糖尿病吗 8 是 2026-05-12 03:52:12" [ref=e170]:
+                - cell "我最近血糖空腹 9 多，口渴尿多体重在掉" [ref=e171]
+                - cell "张医生" [ref=e172]
+                - cell "李医生" [ref=e173]
+                - cell "我最近血糖空腹 9 多，口渴尿多体重在掉，是糖尿病吗" [ref=e174]
+                - cell "8" [ref=e175]
+                - cell "是" [ref=e176]
+                - cell "2026-05-12 03:52:12" [ref=e177]
+              - row "李主任 最近胸口闷，爬楼梯就喘 2 - 2026-05-12 03:50:28" [ref=e178]:
+                - cell [ref=e179]
+                - cell "李主任" [ref=e180]
+                - cell [ref=e181]
+                - cell "最近胸口闷，爬楼梯就喘" [ref=e182]
+                - cell "2" [ref=e183]
+                - cell "-" [ref=e184]
+                - cell "2026-05-12 03:50:28" [ref=e185]
+  - generic [ref=e187]:
+    - img "check-circle" [ref=e188]:
+      - img [ref=e189]
+    - generic [ref=e191]: 登录成功

@@ -1,0 +1,90 @@
+- generic [ref=e47]:
+  - complementary [ref=e48]:
+    - generic [ref=e49]:
+      - heading "北京协和医院" [level=5] [ref=e51]
+      - menu [ref=e52]:
+        - menuitem "dashboard 数据总览" [ref=e53] [cursor=pointer]:
+          - img "dashboard" [ref=e54]:
+            - img [ref=e55]
+          - generic [ref=e57]: 数据总览
+        - menuitem "team 病人管理" [active] [ref=e58] [cursor=pointer]:
+          - img "team" [ref=e59]:
+            - img [ref=e60]
+          - generic [ref=e62]: 病人管理
+        - menuitem "message 对话记录" [ref=e63] [cursor=pointer]:
+          - img "message" [ref=e64]:
+            - img [ref=e65]
+          - generic [ref=e67]: 对话记录
+    - img "left" [ref=e69] [cursor=pointer]:
+      - img [ref=e70]
+  - generic [ref=e72]:
+    - banner [ref=e73]:
+      - generic [ref=e74]:
+        - strong [ref=e77]: 北京协和医院
+        - generic [ref=e79]: 王院长
+      - button "logout 退出" [ref=e80] [cursor=pointer]:
+        - img "logout" [ref=e82]:
+          - img [ref=e83]
+        - generic [ref=e85]: 退出
+    - main [ref=e86]:
+      - generic [ref=e185]:
+        - heading "病人管理" [level=4] [ref=e186]
+        - generic [ref=e189]:
+          - table [ref=e193]:
+            - rowgroup [ref=e200]:
+              - row "姓名 手机 会话数 接替次数 最近症状 最近时间 操作" [ref=e201]:
+                - columnheader "姓名" [ref=e202]
+                - columnheader "手机" [ref=e203]
+                - columnheader "会话数" [ref=e204]
+                - columnheader "接替次数" [ref=e205]
+                - columnheader "最近症状"
+                - columnheader "最近时间"
+                - columnheader "操作" [ref=e206]
+            - rowgroup [ref=e207]:
+              - row "王小明 138****8000 0 0 - eye 查看" [ref=e208]:
+                - cell "王小明" [ref=e209]
+                - cell "138****8000" [ref=e210]
+                - cell "0" [ref=e211]
+                - cell "0" [ref=e212]
+                - cell
+                - cell "-"
+                - cell "eye 查看" [ref=e213]:
+                  - generic [ref=e214] [cursor=pointer]:
+                    - img "eye" [ref=e215]:
+                      - img [ref=e216]
+                    - text: 查看
+              - row "Test 138****0000 0 0 - eye 查看" [ref=e218]:
+                - cell "Test" [ref=e219]
+                - cell "138****0000" [ref=e220]
+                - cell "0" [ref=e221]
+                - cell "0" [ref=e222]
+                - cell
+                - cell "-"
+                - cell "eye 查看" [ref=e223]:
+                  - generic [ref=e224] [cursor=pointer]:
+                    - img "eye" [ref=e225]:
+                      - img [ref=e226]
+                    - text: 查看
+              - row "Test 138****0000 0 0 - eye 查看" [ref=e228]:
+                - cell "Test" [ref=e229]
+                - cell "138****0000" [ref=e230]
+                - cell "0" [ref=e231]
+                - cell "0" [ref=e232]
+                - cell
+                - cell "-"
+                - cell "eye 查看" [ref=e233]:
+                  - generic [ref=e234] [cursor=pointer]:
+                    - img "eye" [ref=e235]:
+                      - img [ref=e236]
+                    - text: 查看
+          - list [ref=e238]:
+            - listitem "上一页" [ref=e239]:
+              - button "left" [disabled] [ref=e240]:
+                - img "left" [ref=e241]:
+                  - img [ref=e242]
+            - listitem "1" [ref=e244] [cursor=pointer]:
+              - generic [ref=e245]: "1"
+            - listitem "下一页" [ref=e246]:
+              - button "right" [disabled] [ref=e247]:
+                - img "right" [ref=e248]:
+                  - img [ref=e249]

@@ -1,0 +1,107 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e47]:
+    - complementary [ref=e48]:
+      - generic [ref=e49]:
+        - heading "北京协和医院" [level=5] [ref=e51]
+        - menu [ref=e52]:
+          - menuitem "dashboard 数据总览" [ref=e53] [cursor=pointer]:
+            - img "dashboard" [ref=e54]:
+              - img [ref=e55]
+            - generic [ref=e57]: 数据总览
+          - menuitem "team 病人管理" [ref=e58] [cursor=pointer]:
+            - img "team" [ref=e59]:
+              - img [ref=e60]
+            - generic [ref=e62]: 病人管理
+          - menuitem "message 对话记录" [ref=e63] [cursor=pointer]:
+            - img "message" [ref=e64]:
+              - img [ref=e65]
+            - generic [ref=e67]: 对话记录
+      - img "left" [ref=e69] [cursor=pointer]:
+        - img [ref=e70]
+    - generic [ref=e72]:
+      - banner [ref=e73]:
+        - generic [ref=e74]:
+          - strong [ref=e77]: 北京协和医院
+          - generic [ref=e79]: 王院长
+        - button "logout 退出" [ref=e80] [cursor=pointer]:
+          - img "logout" [ref=e82]:
+            - img [ref=e83]
+          - generic [ref=e85]: 退出
+      - main [ref=e86]:
+        - generic [ref=e87]:
+          - heading "数据总览" [level=4] [ref=e88]
+          - generic [ref=e89]:
+            - generic [ref=e93]:
+              - text: 病人数
+              - heading "3" [level=3] [ref=e94]
+            - generic [ref=e98]:
+              - text: AI医生
+              - heading "4" [level=3] [ref=e99]
+            - generic [ref=e103]:
+              - text: 真人医生
+              - heading "2" [level=3] [ref=e104]
+            - generic [ref=e108]:
+              - text: 今日会话
+              - heading "5" [level=3] [ref=e109]
+            - generic [ref=e113]:
+              - text: 总会话
+              - heading "5" [level=3] [ref=e114]
+            - generic [ref=e118]:
+              - text: 待处理
+              - heading "0" [level=3] [ref=e119]
+          - heading "最近会话" [level=5] [ref=e120]
+          - table [ref=e127]:
+            - rowgroup [ref=e135]:
+              - row "病人 AI医生 真人医生 症状 消息数 接替 时间" [ref=e136]:
+                - columnheader "病人" [ref=e137]
+                - columnheader "AI医生" [ref=e138]
+                - columnheader "真人医生" [ref=e139]
+                - columnheader "症状"
+                - columnheader "消息数" [ref=e140]
+                - columnheader "接替" [ref=e141]
+                - columnheader "时间" [ref=e142]
+            - rowgroup [ref=e143]:
+              - row "我最近血糖空腹 9 多，口渴尿多体重在掉 张医生 李医生 我最近血糖空腹 9 多，口渴尿多体重在掉，是糖尿病吗 4 是 2026-05-12 03:52:12" [ref=e144]:
+                - cell "我最近血糖空腹 9 多，口渴尿多体重在掉" [ref=e145]
+                - cell "张医生" [ref=e146]
+                - cell "李医生" [ref=e147]
+                - cell "我最近血糖空腹 9 多，口渴尿多体重在掉，是糖尿病吗"
+                - cell "4" [ref=e148]
+                - cell "是" [ref=e149]
+                - cell "2026-05-12 03:52:12" [ref=e150]
+              - row "李主任 最近胸口闷，爬楼梯就喘 2 - 2026-05-12 03:50:28" [ref=e151]:
+                - cell [ref=e152]
+                - cell "李主任" [ref=e153]
+                - cell [ref=e154]
+                - cell "最近胸口闷，爬楼梯就喘"
+                - cell "2" [ref=e155]
+                - cell "-" [ref=e156]
+                - cell "2026-05-12 03:50:28" [ref=e157]
+              - row "test 陈医生 张医生 test 4 是 2026-05-12 02:38:13" [ref=e158]:
+                - cell "test" [ref=e159]
+                - cell "陈医生" [ref=e160]
+                - cell "张医生" [ref=e161]
+                - cell "test"
+                - cell "4" [ref=e162]
+                - cell "是" [ref=e163]
+                - cell "2026-05-12 02:38:13" [ref=e164]
+              - row "test 陈医生 张医生 test 4 是 2026-05-12 02:36:01" [ref=e165]:
+                - cell "test" [ref=e166]
+                - cell "陈医生" [ref=e167]
+                - cell "张医生" [ref=e168]
+                - cell "test"
+                - cell "4" [ref=e169]
+                - cell "是" [ref=e170]
+                - cell "2026-05-12 02:36:01" [ref=e171]
+              - row "test 陈医生 张医生 test 4 是 2026-05-12 02:33:55" [ref=e172]:
+                - cell "test" [ref=e173]
+                - cell "陈医生" [ref=e174]
+                - cell "张医生" [ref=e175]
+                - cell "test"
+                - cell "4" [ref=e176]
+                - cell "是" [ref=e177]
+                - cell "2026-05-12 02:33:55" [ref=e178]
+  - generic [ref=e180]:
+    - img "check-circle" [ref=e181]:
+      - img [ref=e182]
+    - generic [ref=e184]: 登录成功

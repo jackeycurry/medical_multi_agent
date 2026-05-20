@@ -1,0 +1,14 @@
+- generic [ref=e4]:
+  - img "medicine-box" [ref=e5]:
+    - img [ref=e6]
+  - heading "您已登录" [level=3] [ref=e8]
+  - generic [ref=e9]:
+    - strong [ref=e11]: 超级管理员
+    - generic [ref=e12]: （超级管理员）
+  - generic [ref=e13]:
+    - button "前往我的工作台" [ref=e14] [cursor=pointer]:
+      - generic [ref=e15]: 前往我的工作台
+    - button "swap 切换其他账号" [ref=e16] [cursor=pointer]:
+      - img "swap" [ref=e18]:
+        - img [ref=e19]
+      - generic [ref=e21]: 切换其他账号

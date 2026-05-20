@@ -1,0 +1,25 @@
+- generic [ref=e6]:
+  - generic [ref=e7]:
+    - img "medicine-box" [ref=e9]:
+      - img [ref=e10]
+    - heading "大健康 AI" [level=2] [ref=e12]
+    - text: 智能体医生平台 · 让专业医疗触手可及
+  - generic [ref=e13]:
+    - generic [ref=e19]:
+      - img "user" [ref=e21]:
+        - img [ref=e22]
+      - textbox "用户名" [ref=e24]
+    - generic [ref=e30]:
+      - img "lock" [ref=e32]:
+        - img [ref=e33]
+      - textbox "密码" [ref=e35]
+      - img "eye-invisible" [ref=e37] [cursor=pointer]:
+        - img [ref=e38]
+    - button "登 录" [ref=e46] [cursor=pointer]:
+      - generic [ref=e47]: 登 录
+  - link "没有账号？立即注册 →" [ref=e49] [cursor=pointer]:
+    - /url: /register
+  - generic [ref=e50]:
+    - text: 病人：patient_wang / 123456（推荐试用）
+    - text: 医生：doctor_zhang / 123456 院长：wang_yuanzhang / 123456
+    - text: 超管：admin / admin123

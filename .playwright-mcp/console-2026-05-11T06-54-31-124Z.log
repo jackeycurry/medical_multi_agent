@@ -1,0 +1,4 @@
+[      32ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/client-DTbpPLPB.js?v=bf622b17:14337
+[    5127ms] [ERROR] Warning: [antd: Steps] `items.description` is deprecated. Please use `items.content` instead. @ http://localhost:5173/@vite/client:509
+[    5130ms] [ERROR] Warning: [antd: Space] `direction` is deprecated. Please use `orientation` instead. @ http://localhost:5173/@vite/client:509
+[   79050ms] [ERROR] Warning: [antd: Alert] `message` is deprecated. Please use `title` instead. @ http://localhost:5173/@vite/client:509

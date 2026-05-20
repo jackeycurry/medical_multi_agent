@@ -1,0 +1,20 @@
+[     134ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/client-DTbpPLPB.js?v=01bcfe8d:14337
+[ 4389342ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/App.tsx?t=1778487656772:0
+[ 4389343ms] [ERROR] [vite] Failed to reload /src/App.tsx. This could be due to syntax errors or importing non-existent modules. (see errors above) @ http://localhost:5173/@vite/client:509
+[ 4487749ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/App.tsx?t=1778487755138:0
+[ 4487839ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/Dashboard.tsx?t=1778487755245:0
+[ 4487850ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/DoctorChat.tsx?t=1778487755245:0
+[ 4487851ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/DoctorCreate.tsx?t=1778487755245:0
+[ 4487851ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/CallLogs.tsx:0
+[ 4487855ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/ApiDemo.tsx:0
+[ 4497311ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/App.tsx?t=1778487764736:0
+[ 4510864ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/Dashboard.tsx?t=1778487764734:0
+[ 4510866ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/DoctorCreate.tsx?t=1778487764734:0
+[ 4510868ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/DoctorChat.tsx?t=1778487764734:0
+[ 4510871ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/CallLogs.tsx?t=1778487764734:0
+[ 4510871ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/ApiDemo.tsx?t=1778487764734:0
+[ 4678209ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/Dashboard.tsx?t=1778487945619:0
+[ 4678214ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/DoctorCreate.tsx?t=1778487945619:0
+[ 4678216ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/DoctorChat.tsx?t=1778487945619:0
+[ 4678217ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/CallLogs.tsx?t=1778487945619:0
+[ 4678221ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:5173/src/pages/admin/ApiDemo.tsx?t=1778487945619:0

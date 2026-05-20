@@ -1,0 +1,3 @@
+[     555ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:5173/node_modules/.vite/deps/client-DTbpPLPB.js?v=bf622b17:14337
+[     697ms] [ERROR] Warning: [antd: Statistic] `valueStyle` is deprecated. Please use `styles.content` instead. @ http://localhost:5173/@vite/client:509
+[   51116ms] [ERROR] Warning: [antd: Alert] `message` is deprecated. Please use `title` instead. @ http://localhost:5173/@vite/client:509

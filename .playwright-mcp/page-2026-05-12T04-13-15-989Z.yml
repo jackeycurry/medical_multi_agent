@@ -1,0 +1,45 @@
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - heading "大健康在线问诊" [level=4] [ref=e5] [cursor=pointer]
+    - button "登 录" [ref=e8] [cursor=pointer]:
+      - generic [ref=e9]: 登 录
+  - main [ref=e10]:
+    - generic [ref=e47]:
+      - generic [ref=e54]:
+        - button "arrow-left 返回" [ref=e55] [cursor=pointer]:
+          - img "arrow-left" [ref=e57]:
+            - img [ref=e58]
+          - generic [ref=e60]: 返回
+        - generic [ref=e62]: 🩺
+        - generic [ref=e63]:
+          - strong [ref=e65]: 陈医生
+          - generic [ref=e66]: 全科
+        - button "请求真人医生" [ref=e67] [cursor=pointer]:
+          - generic [ref=e68]: 请求真人医生
+      - alert [ref=e69]:
+        - img "exclamation-circle" [ref=e71]:
+          - img [ref=e72]
+        - generic [ref=e75]: AI 问诊仅供参考，不构成医疗建议。如有紧急症状请立即就医。
+        - button "close" [ref=e76] [cursor=pointer]:
+          - img "close" [ref=e77]:
+            - img [ref=e78]
+      - generic [ref=e80]:
+        - generic [ref=e81]:
+          - img "robot" [ref=e83]:
+            - img [ref=e84]
+          - generic [ref=e86]: 您好，我是陈医生，在社区中心做全科医生。您说“最近经常头痛，特别是下午，伴恶心”，这个信息很关键。我先快速问几个问题帮您判断原因： 1. 头痛是胀痛、跳痛、紧箍感，还是刺痛？部位在前额、太阳穴、后脑还是整个头？ 2. 每次持续多久？下午大概几点开始？是否和用眼、熬夜、漏餐或压力有关？ 3. 有没有视物模糊、怕光怕声、颈部僵硬，或近期血压升高、睡眠变差？ 4. 以前有过类似头痛吗？有高血压、偏头痛家族史，或最近外伤、感冒？ 这些能帮我们区分是紧张性头痛、偏头痛、血压波动，还是需要进一步排查的信号。您简单回答，我马上给您分诊建议。
+        - generic [ref=e95]:
+          - img "user" [ref=e97]:
+            - img [ref=e98]
+          - generic [ref=e100]: 头痛会持续一两小时，吃布洛芬能缓解，每周大概发作 3 次
+        - generic [ref=e101]:
+          - img "robot" [ref=e103]:
+            - img [ref=e104]
+          - generic [ref=e106]: 谢谢您补充！头痛持续1–2小时、布洛芬有效、每周3次，结合“下午发作+伴恶心”，高度提示**偏头痛**可能——尤其若伴有怕光、怕声、视物先兆或睡眠/饮食不规律等诱因。但需先排除继发性原因： ✅ 建议优先挂**神经内科**（非急诊，可预约），完善血压监测、头颅CT（必要时MRI）及视力筛查； ⚠️ 若出现单侧肢体无力、言语不清、视物成双、突发剧烈“雷击样”头痛，请立即去急诊！ 💡日常可记录“头痛日记”（时间、诱因、症状、用药效果），有助于医生精准判断。我这边也可帮您开检查单或转诊。需要我协助预约吗？
+      - generic [ref=e87]:
+        - textbox "输入您的症状或问题... (Enter 发送, Shift+Enter 换行)" [ref=e88]
+        - button "send 发送" [disabled] [ref=e89]:
+          - generic:
+            - img "send":
+              - img
+          - generic: 发送
