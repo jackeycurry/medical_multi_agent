@@ -1,9 +1,0 @@
-- generic [ref=e3]:
-  - banner [ref=e4]:
-    - heading "大健康在线问诊" [level=4] [ref=e5] [cursor=pointer]
-    - button "登 录" [ref=e8] [cursor=pointer]:
-      - generic [ref=e9]: 登 录
-  - main [ref=e10]:
-    - generic [ref=e11]:
-      - heading "选择医院" [level=3] [ref=e12]
-      - generic [ref=e13]: 选择一家医院，系统将为您匹配最合适的 AI 专科医生
